@@ -1,0 +1,206 @@
+
+
+/*MOBILE ELEMENTS*/
+/*MOBILE Main Header*/
+.mobile-header {display: none;}
+.mobile-header a.mobile-regional-sites-link {position: relative; overflow: hidden; flex-shrink: 0; width: 80px; height: 60px; line-height: 1rem; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; color: #000000; background: #FCCF00;}
+.mobile-header a.mobile-regional-sites-link .world-icon {position: absolute; top: 25px; left: -14px; opacity: 0.3; display: inline-block; width: 60px; height: 60px; background: url(../images/icons/general/black-world.svg) center center no-repeat; background-size: 100%;}
+.mobile-header a.mobile-regional-sites-link:hover .world-icon, 
+.mobile-header a.mobile-regional-sites-link.active .world-icon {opacity: 0.7;}
+.mobile-language-selector {}
+.mobile-language-selector a.mobile-language-select {position: relative; overflow: hidden; flex-shrink: 0; width: 80px; height: 60px; line-height: 1rem; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; color: #FFFFFF; background: #000000; border-right: 1px solid rgba(255,255,255,0.2);}
+.mobile-language-selector a.mobile-language-select .language-icon {position: absolute; top: 25px; left: -14px; opacity: 0.3; display: inline-block; width: 60px; height: 60px; background: url(../images/icons/general/white-language-icon.svg) center center no-repeat; background-size: 100%;}
+.mobile-language-selector a.mobile-language-select:hover .language-icon, 
+.mobile-language-selector a.mobile-language-select.active .language-icon {opacity: 0.7;}
+.mobile-language-selector ul.language-list {display: none; background: #000000; text-align: center;}
+.mobile-language-selector ul.language-list li {border: 1px solid rgba(255,255,255,0.2);}
+.mobile-language-selector ul.language-list li:last-child {border-top: none;}
+.mobile-language-selector ul.language-list li a {display: block; color: #FFFFFF; width: 100%; padding: 20px; text-transform: uppercase;}
+.mobile-language-selector ul.language-list li a:hover {color: #FCCF00;}
+.mobile-header .mobile-menu-selector {position: relative; width: 80px;}
+.mobile-header .mobile-menu-selector .mobile-menu-select {background: #000000; width: 80px; text-align: center;}
+.mobile-menu {display: none; position: fixed; top: 60px; z-index: 100; max-height: calc(100vh - 60px); overflow: hidden; overflow-y: auto; background: #000000; width: 100%; border-top: 1px solid rgba(255,255,255,0.2);}
+.mobile-menu .search-box {position: relative; padding: 20px;}
+.mobile-menu .search-box input {width: 100%; height: 44px; border: none; padding: 8px 65px 8px 15px;}
+.mobile-menu .search-box button.search-button {position: absolute; top: 22px; right:20px; width: 50px; height: 42px; border: none; background: #F5F5F5 url(../images/icons/general/black-search.svg) center center no-repeat; background-size: 40%;}
+.mobile-menu ul.menu-links {}
+.mobile-menu ul.menu-links li.dropdown {border-top: 1px solid rgba(255,255,255,0.2);}
+.mobile-menu ul.menu-links li.dropdown > a {display: flex; width: 100%; padding: 20px; text-transform: uppercase; color: #FFFFFF;}
+.mobile-menu ul.menu-links li.dropdown > a .hamburger-box {height: 15px;}
+.mobile-menu ul.menu-links li.dropdown > a .hamburger-inner, 
+.mobile-menu ul.menu-links li.dropdown > a .hamburger-inner::before, 
+.mobile-menu ul.menu-links li.dropdown > a .hamburger-inner::after {width: 10px; height: 1px; background: #FCCF00;}
+.mobile-menu ul.menu-links li.dropdown > a .hamburger-box {width: 10px;}
+.mobile-menu ul.menu-links li.dropdown > a:hover {color: #FCCF00;}
+.mobile-menu ul.menu-links li.dropdown ul.sub-menu-links {display: none; background: #21211F;}
+.mobile-menu ul.menu-links li.dropdown ul.sub-menu-links li {border-top: 1px solid rgba(255,255,255,0.1);}
+.mobile-menu ul.menu-links li.dropdown ul.sub-menu-links li a {display: block; padding: 15px 20px 15px 40px; text-transform: uppercase; color: #FFFFFF;}
+.mobile-menu ul.menu-links li.dropdown ul.sub-menu-links li a:hover {color: #FCCF00;}
+.mobile-menu .mobile-menu-footer {display: block; border-top: 1px solid rgba(255,255,255,0.2);}
+.mobile-menu .mobile-menu-footer .social-links {padding: 20px; text-align: center;}
+.mobile-menu .mobile-menu-footer .social-links ul {}
+.mobile-menu .mobile-menu-footer .social-links ul li {display: inline-block;}
+.mobile-menu .mobile-menu-footer .social-links ul li a {display: inline-block; margin: 0 5px; color: #FFFFFF; opacity: 0.5; width: 40px; height: 34px;  background-position: 3px;}
+.mobile-menu .mobile-menu-footer .social-links ul li a.facebook-link {background: url(../images/icons/social/white-facebook-logo.svg) center center no-repeat; background-size: 12px;}
+.mobile-menu .mobile-menu-footer .social-links ul li a.instagram-link {background: url(../images/icons/social/white-instagram-logo.svg) center center no-repeat; background-size: 21px;}
+.mobile-menu .mobile-menu-footer .social-links ul li a.linkedin-link {background: url(../images/icons/social/white-linkedin-logo.svg) center center no-repeat; background-size: 21px;}
+.mobile-menu .mobile-menu-footer .social-links ul li a.youtube-link {background: url(../images/icons/social/white-youtube-logo.svg) center center no-repeat; background-size: 24px;}
+.mobile-menu .mobile-menu-footer .social-links ul li a:hover {opacity: 1;}
+.mobile-menu .mobile-menu-footer .mobile-language-selector {display: none;}
+.mobile-menu .mobile-menu-footer .mobile-language-selector a.mobile-language-select {width: 80px; height: 100%; background: #111111; border-right: none;}
+.mobile-menu .mobile-menu-footer .mobile-language-selector a.mobile-language-select .language-icon {}
+.mobile-menu .mobile-menu-footer .mobile-language-selector a.mobile-language-select:hover .language-icon, 
+.mobile-menu .mobile-menu-footer .mobile-language-selector a.mobile-language-select.active .language-icon {opacity: 0.7;}
+.mobile-menu ul.language-list {display: none; background: #000000; text-align: center;}
+.mobile-menu ul.language-list li {border: 1px solid rgba(255,255,255,0.2);}
+.mobile-menu ul.language-list li:last-child {border-top: none;}
+.mobile-menu ul.language-list li a {display: block; color: #FFFFFF; width: 100%; padding: 20px; text-transform: uppercase;}
+.mobile-menu ul.language-list li a:hover {color: #FCCF00;}
+
+/*RESPONSIVENESS*/
+@media (max-width: 1280px) {
+  /*Main Header*/
+  .main-header-canvas .main-header .left-header nav.main-menu {margin: 0;}
+  .main-header-canvas .main-header .left-header nav.main-menu ul > li > a {padding: 0 10px; font-size: 0.7rem;}
+
+  /*Megamenu*/
+  .megamenu-drop .megamenu-canvas .megamenu .megamenu-main a.menu-link .link-title {font-size: 0.8rem;}
+
+  /*Main Footer*/
+  .footer-copyright-canvas .footer-copyright {padding-left: 65px;}
+}
+
+@media (max-width: 1199px) {
+  /*Top Header*/
+  .top-header-canvas {display: none;}
+
+  /*Main Header*/
+  .main-menu {display: none;}
+  .main-header-canvas .main-header .left-header a.logo {margin: 16px 20px 0 20px;}
+  .main-header-canvas .main-header .right-header {display: none;}
+  .top-header-canvas .top-header .language-selector {display: none;}
+
+  /*MOBILE Main Header*/
+  .mobile-header {display: flex;}
+
+  /*Home About*/
+  .home-about-canvas .home-about .about-box .about-box-content a.button {width: 100%;}
+
+  /*Home CSR*/
+  .home-csr-canvas {padding: 40px 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas {margin-bottom: 40px;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .carousel-slate {height: 460px;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .csr-carousel-wrap {margin-top: -400px;}
+
+  /*Footer Main*/
+  .footer-copyright-canvas .footer-copyright .social-links {display: none;}
+
+}
+
+@media (max-width: 991px) {
+  /*Home News*/
+  .home-news-canvas .home-news .row > .col-lg {padding: 0;}
+
+  /*Home About*/
+  .home-about-canvas {padding: 40px 0;}
+  .home-about-canvas .home-about .about-intro {padding: 0; text-align: center; margin-bottom: 30px;}
+
+  /*Home Motorsports*/
+  .home-motorsports-canvas .home-motorsports .motorsports-intro {margin-bottom: 120px;}
+  .home-motorsports-canvas .home-motorsports .motorsports-intro h1 {margin-bottom: 50px;}
+  .home-motorsports-canvas .home-motorsports .motorsports-intro p {margin-bottom: 2rem;}
+  .home-motorsports-canvas .home-motorsports .upcoming-races {padding: 0;}
+
+  /*Home CSR*/
+  .home-csr-canvas {padding: 40px 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas {padding: 0; margin-bottom: 60px;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .carousel-slate {width: 100%; height: auto; border-radius: 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .carousel-slate h3 {margin: 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .csr-carousel-wrap {margin: 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .csr-carousel-wrap .csr-carousel .csr-slide img {border-radius: 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .csr-carousel-wrap .csr-carousel .owl-dots {right: 20px;}
+
+  /*Home Map*/
+  .home-tiresearch-canvas .home-tiresearch .tiresearch-map {background-size: 100%; height: 460px;}
+  .home-tiresearch-canvas .home-tiresearch .tiresearch-intro {padding: 40px 30px 40px 30px;}
+
+  /*Footer Main*/
+  .footer-copyright-canvas {height: auto; padding: 20px 0;}
+  .footer-copyright-canvas a.footer-logo {display: none;}
+  .footer-copyright-canvas .footer-copyright {padding: 0; display: block; text-align: center;}
+  .footer-copyright-canvas .footer-copyright .social-links {display: block;}
+  .footer-copyright-canvas .footer-copyright .copyright-links {margin-bottom: 10px;}
+  .footer-copyright-canvas .footer-copyright .copyright-links ul li {display: inline-block; height: 40px; line-height: 40px; margin: 0 10px;}
+  .footer-copyright-canvas .footer-copyright .copyright-links ul li:first-child {margin: 0 10px;}
+}
+
+@media (max-width: 767px) {
+  /*Home Main Slider*/
+  .home-main-slider h1.slider-heading {font-size: 3rem;}
+  .home-main-slider p.slider-excerpt {min-width: 400px!important;}
+
+  /*Home News*/
+  .home-news-canvas .home-news .featured-article {height: 200px;}
+  .home-news-canvas .home-news .featured-article .article-title h2 {font-size: 1.4rem; line-height: 1.4rem;}
+  .home-news-canvas .home-news a.other-article {height: 200px;}
+  .home-news-canvas .home-news a.other-article .article-title h3 {font-size: 1.4rem; line-height: 1.4rem;}
+  .home-news-canvas .home-news .news-box {padding: 25px;}
+
+  /*Home CSR*/
+  .home-csr-canvas {padding: 30px 0 0 0;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas {margin-bottom: 30px;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .carousel-slate {padding: 20px;}
+  .home-csr-canvas .home-csr .csr-intro {padding: 0; text-align: center; background: none;}
+  .home-csr-canvas .home-csr .csr-intro a {font-size: 0; text-align: center;}
+  .home-csr-canvas .home-csr .csr-intro a:before {content: "More About CSR"; text-indent: inherit; font-size: 1rem; text-align: center; display: block;}
+  .home-csr-canvas .home-csr .csr-carousel-canvas .csr-carousel-wrap .csr-carousel .owl-dots {right: 10px; top: -52px;}
+
+  /*Home Map*/
+  .home-tiresearch-canvas .home-tiresearch .tiresearch-map {background-size: 100%; height: 360px;}
+
+  /*Callouts*/
+  .callouts-canvas .callouts .callout.subscribe {margin-bottom: 30px;}
+}
+
+@media (max-width: 575px) {
+  /*General*/
+  h1 {font-size: 2.3rem;}
+  h2 {font-size: 2rem;}
+
+  /*MOBILE Main Header*/
+  .mobile-header .mobile-language-selector a.mobile-language-select {display: none;}
+  .mobile-menu .mobile-menu-footer {display: flex;}
+  .mobile-menu .mobile-menu-footer .social-links {padding: 15px 10px 10px 6px; border: none;}
+  .mobile-menu .mobile-menu-footer .social-links ul li a {margin: 0 3px;}
+  .mobile-menu .mobile-menu-footer .mobile-language-selector {display: flex;}
+
+  /*Main Home Slider*/
+  .home-main-slider h1.slider-heading {white-space: normal!important; width: 300px; line-height: 2.3rem!important;}
+  .home-main-slider p.slider-excerpt {display: none;}
+  .home-main-slider .tp-caption {}
+
+  /*Home News*/
+  .home-news-canvas .home-news .featured-article {height: 150px;}
+  .home-news-canvas .home-news .featured-article .article-title h2 {font-size: 1.1rem; line-height: 1.5rem;}
+  .home-news-canvas .home-news a.other-article {height: 150px;}
+  .home-news-canvas .home-news a.other-article .article-title h3 {font-size: 1.1rem; line-height: 1.5rem;}
+  .home-news-canvas .home-news .news-box {padding: 15px 25px 25px 25px;}
+  .home-news-canvas .home-news .news-box h2 {font-size: 2rem;}
+  .home-about-canvas .home-about .about-intro p {font-size: 1rem;}
+
+  /*Home About*/
+  .home-about-canvas .home-about .about-intro h1 {margin-bottom: 1rem;}
+  .home-about-canvas .home-about .about-intro p {margin-bottom: 1rem;}
+  .home-about-canvas .home-about .about-box {position: relative; text-align: center;}
+  .home-about-canvas .home-about .about-box .box {padding: 0; position: absolute; width: 100%; height: 100%; z-index: 11;}
+  .home-about-canvas .home-about .about-box .about-box-content {background: rgba(0,0,0,0.7); position: relative; z-index: 11;}
+
+  /*Home Motorsports*/
+  .home-motorsports-canvas .home-motorsports .motorsports-intro h1 {font-size: 2.5rem;}
+  .home-motorsports-canvas .home-motorsports .motorsports-intro p {padding: 0; font-size: 1.2rem; margin-bottom: 1rem;}
+  .home-motorsports-canvas .home-motorsports .upcoming-races .races {padding: 20px 20px 10px 20px;}
+
+  /*Home Map*/
+  .home-tiresearch-canvas .home-tiresearch .tiresearch-map {display: none;}
+  .home-tiresearch-canvas .home-tiresearch .tiresearch-intro {padding: 30px 15px 30px 15px;}
+}
